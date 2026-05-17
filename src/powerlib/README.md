@@ -1,5 +1,4 @@
-## 12. ディレクトリ構成
-自作アプリに使うライブラリpowerlibのディレクトリ構成は
+# ディレクトリ構成
 ```
 src/
   powerlib/
@@ -39,13 +38,4 @@ src/
 
     config.py              # 共通定数
     exceptions.py          # 独自例外
-```
-
-対応をするために、このプロジェクトディレクトリの責務も以下を意識する
-```
-io : 0.data_input
-preprocessing : 1.data_processing
-features , analysis : 2.feature_extraction
-models : 3.model
-metrics : 4.evaluation
 ```
